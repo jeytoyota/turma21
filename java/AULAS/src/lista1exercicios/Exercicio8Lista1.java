@@ -1,4 +1,4 @@
-package exercicios;
+package lista1exercicios;
 
 import java.util.Scanner;
 
@@ -19,6 +19,8 @@ public class Exercicio8Lista1 {
 		custoConsumidor = custoFabrica + (custoFabrica * custoDistribuidor) + (custoFabrica + imposto);
 		
 		System.out.println("Valo total: "+ custoConsumidor);
+		
+		leia.close();
 		
 	}
 

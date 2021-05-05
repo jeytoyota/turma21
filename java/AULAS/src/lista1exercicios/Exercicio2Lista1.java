@@ -1,4 +1,4 @@
-package exercicios;
+package lista1exercicios;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class Exercicio2Lista1 {
 		int mes;
 		int dias;
 		int idadeDias;
-		int restoAno;
+		
 		
 		System.out.println("Digite quantos dias de idade: ");
 		idadeDias = leia.nextInt();
@@ -22,6 +22,8 @@ public class Exercicio2Lista1 {
 		dias = (idadeDias % 365) % 30;
 		
 		System.out.println("Você tem: " + ano +" anos "+ mes +" meses e "+ dias + " dias");
+		
+		leia.close();
 		
 	}
 

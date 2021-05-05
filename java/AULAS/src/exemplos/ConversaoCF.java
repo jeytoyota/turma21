@@ -1,4 +1,4 @@
-package exercicios;
+package exemplos;
 
 import java.util.Scanner;
 
@@ -22,6 +22,8 @@ public class ConversaoCF {
 		
 		//System.out.println("Nome: " + nome + " temperatura em Fahrenheit " + calculo);
 		System.out.printf("Nome: %s temperatura em Fahrenheit : %.2f",nome,calculo);
+		
+		leia.close();
 	}
 
 }

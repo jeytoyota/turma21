@@ -1,4 +1,4 @@
-package exercicios;
+package lista1exercicios;
 
 import java.util.Scanner;
 
@@ -25,6 +25,8 @@ public class Exercicio1Lista1 {
 		calculo = (365 * anos) + (30 * meses) + dias;
 		
 		System.out.println("Você tem aproximadamente: "+ calculo + " dias de idade");
+		
+		leia.close();
 		
 	}
 

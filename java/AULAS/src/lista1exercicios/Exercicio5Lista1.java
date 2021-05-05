@@ -1,4 +1,4 @@
-package exercicios;
+package lista1exercicios;
 
 import java.util.Scanner;
 
@@ -25,6 +25,8 @@ public class Exercicio5Lista1 {
 		mediaPond = ((nota1 * 2) + (nota2 * 3) + (nota3 * 5))/10;
 		
 		System.out.println("Média ponderada: " + mediaPond);
+		
+		leia.close();
 		
 	}
 

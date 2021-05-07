@@ -1,4 +1,4 @@
-package lista5exercicios;
+package listaLacoRepeticao;
 
 import java.util.Scanner;
 

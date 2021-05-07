@@ -1,4 +1,4 @@
-package lista5exercicios;
+package listaLacoRepeticao;
 
 public class Ex1Repeticao {
 	

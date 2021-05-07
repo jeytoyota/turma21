@@ -1,4 +1,4 @@
-package lista4exercicios;
+package listaLacoDecisao;
 
 import java.util.Locale;
 import java.util.Scanner;

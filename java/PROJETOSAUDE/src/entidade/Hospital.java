@@ -8,14 +8,16 @@ public class Hospital {
 	private String tipoAlas;
 	private int qtdLeitos;
 	private int qtdFuncionarios;
+	private int qtdPacientes;
 	
 	
 	public Hospital() {
 	}
 
 
+	
 	public Hospital(String nome, String tipo, int capacidadePacientes, String tipoAlas, int qtdLeitos,
-			int qtdFuncionarios) {
+			int qtdFuncionarios, int qtdPacientes) {
 		super();
 		this.nome = nome;
 		this.tipo = tipo;
@@ -23,6 +25,7 @@ public class Hospital {
 		this.tipoAlas = tipoAlas;
 		this.qtdLeitos = qtdLeitos;
 		this.qtdFuncionarios = qtdFuncionarios;
+		this.qtdPacientes = qtdPacientes;
 	}
 
 
@@ -85,8 +88,27 @@ public class Hospital {
 		this.qtdFuncionarios = qtdFuncionarios;
 	}
 	
-	public void leitosDisponiveis(int qtdPacientes) {
-		System.out.println("Leitos disponíveis: "+(qtdLeitos-qtdPacientes));
+	
+	
+	public int getQtdPacientes() {
+		return qtdPacientes;
+	}
+
+
+
+	public void setQtdPacientes(int qtdPacientes) {
+		this.qtdPacientes = qtdPacientes;
+	}
+
+
+
+	public void leitosDisponiveis() {
+		if(qtdLeitos>qtdPacientes) {
+			System.out.println("Leitos disponíveis: "+(qtdLeitos-qtdPacientes));
+		}
+		else {
+			System.out.println("Leitos indisponíveis no momento... ");
+		}
 	}
 
 }

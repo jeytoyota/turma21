@@ -54,7 +54,7 @@ public class Funcionario {
 	}
 	
 	public void mostrarSalario() {
-		System.out.println(horasTrabalhadas * valorHora);
+		System.out.println("Salário: "+(horasTrabalhadas * valorHora));
 	}
 	
 	public double salario() {

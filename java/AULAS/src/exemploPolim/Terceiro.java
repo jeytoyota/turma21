@@ -19,7 +19,7 @@ public class Terceiro extends Funcionario{
 	
 	@Override
 	public void mostrarSalario() {
-		System.out.println((horasTrabalhadas * valorHora)+adicional);
+		System.out.println("Salário: "+((horasTrabalhadas * valorHora)+adicional));
 	}
 	
 	@Override

@@ -1,4 +1,4 @@
--- EXERCÍCIOS 1
+-- EXERCÍCIOS 1 ----------
 
 create database db_rh;
 

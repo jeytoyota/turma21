@@ -9,7 +9,7 @@ import entidade.Funcionario;
 import entidade.Hospital;
 import entidade.Medice;
 import entidade.Paciente;
-import entidade.Pessoa;
+
 
 public class Programa {
 	

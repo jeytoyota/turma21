@@ -1,6 +1,6 @@
 package entidade;
 
-public class Funcionario extends Pessoa {
+public abstract class Funcionario extends Pessoa {
 
 	private String profissao;
 	private String setor;
@@ -67,8 +67,8 @@ public class Funcionario extends Pessoa {
 		return horasTrabalhadas;
 	}
 
-	public void setHorasTrabalhadas(int horasTrabalhadas) {
-		this.horasTrabalhadas = horasTrabalhadas;
+	public void setHorasTrabalhadas() {
+		
 	}
 
 	public double calcularSalario() {
